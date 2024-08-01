@@ -1,0 +1,57 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#box{
+    height: 500px;
+    width: 370px;
+    background-color: rgba(255, 255, 255, 0.707);
+    border-radius: 10px;
+    padding: 20px;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    align-items: center;
+}
+img{
+    height: 250px;
+    width: 330px;
+}
+#icons{
+    display: flex;
+    justify-content: space-between;
+}
+i{
+    font-size: 25px;
+    margin: 2px;
+}
+#coment{
+    margin-top: 10px;
+    height: 175px;
+    width: 330px;
+    padding: 10px;
+    background-color: rgba(128, 128, 128, 0.347);
+    border-radius: 10px;
+}#love{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    font-size: 60px;
+    color: white;
+    opacity: 0;
+    transform: translate(-50%,-50%);
+    transition: all ease 0.5s;
+  
+
+}

@@ -1,0 +1,117 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+html, body {
+    height: 100%;
+    width: 100%;
+}
+#main {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+}
+#nav-1{
+    display: flex;
+    align-items: center;
+}
+#nav-1 h3{
+    border: 1px solid black;
+    margin: 1px;
+    font-weight: 600;
+    padding: 5px;
+    font-size: 25;
+    border-radius: 20px;
+}
+#nav-1 i {
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 25;
+}
+#nav-2{
+    font-family: 500;
+    font-size: 30px;
+}
+#btn2{
+    border-radius: 20px;
+    border:none;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: orangered;
+}
+#btn1 {
+    border-radius: 20px;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: white;
+}
+#backLetter{
+    font-family: monospace;
+    font-size: 160px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+    font-weight: 500;
+}
+img{
+    height: 430px;
+    width: 340px;
+    object-fit: cover;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border-radius: 20px;
+}
+#img1{
+    transform: translate(-50%, -50%) rotate(-20deg);
+}
+#img2{
+    transform: translate(-50%, -50%) rotate(-15deg);
+}
+#img3{
+    transform: translate(-50%, -50%) rotate(-10deg);
+}
+#img4{
+    transform: translate(-50%, -50%) rotate(0deg);
+}
+#btm-left{
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    font-weight: 900;
+    font-size: 18px;
+}
+#last{
+    position: absolute;
+    bottom: 4%;
+    right: 5%;
+}
+#btm-right{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-weight: 900;
+    font-size: 18px;
+}
+#lst{
+    font-weight: 900;
+    font-size: 18px;
+}
